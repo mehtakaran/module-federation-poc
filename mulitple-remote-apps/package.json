@@ -1,0 +1,14 @@
+{
+  "name": "mulitple-remote-apps",
+  "version": "1.0.0",
+  "scripts": {
+    "start:header": "cd header && npm start",
+    "start:features": "cd features && npm start",
+    "start:footer": "cd footer && npm start",
+    "start:main": "cd main && npm start",
+    "start": "npm-run-all --parallel start:header start:features start:footer start:main"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

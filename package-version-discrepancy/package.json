@@ -1,0 +1,12 @@
+{
+  "name": "package-version-discrepancy",
+  "version": "1.0.0",
+  "scripts": {
+    "start:app1": "cd app-1 && npm i && npm start",
+    "start:app2": "cd app-2 && npm i && npm start",
+    "start": "npm-run-all --parallel start:app1 start:app2"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
