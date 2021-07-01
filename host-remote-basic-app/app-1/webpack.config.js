@@ -29,7 +29,6 @@ module.exports = {
       library: { type: "var", name: "app1" },
       filename: "remoteEntry.js",
       exposes: {
-        // expose each component
         "./Header": "./src/components/Header",
       },
       shared: {

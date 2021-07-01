@@ -5,7 +5,7 @@ import React from "react";
 const App = () => {
   return (
     <div>
-      <h1>App 1 Host</h1>
+      <h1>App 1 Remote</h1>
       <p>Lodash v{VERSION}</p>
     </div>
   );

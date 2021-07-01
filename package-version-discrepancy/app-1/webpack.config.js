@@ -29,8 +29,7 @@ module.exports = {
       library: { type: "var", name: "app1" },
       filename: "remoteEntry.js",
       exposes: {
-        // expose each component
-        "./AppVersion": "./src/App",
+        "./LodashVersion": "./src/App",
       },
       shared: {
         react: "react",
